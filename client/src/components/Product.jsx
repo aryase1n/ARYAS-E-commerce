@@ -25,7 +25,7 @@ const Info = styled.div`
 const Container = styled.div`
   flex: 1;
   margin: 5px;
-  min-width: 280px;
+  min-width: 290px;
   height: 350px;
   display: flex;
   align-items: center;
@@ -52,7 +52,7 @@ const Image = styled.img`
 `;
 
 const Icon = styled.div`
-  width: 70px;
+  width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: white;
