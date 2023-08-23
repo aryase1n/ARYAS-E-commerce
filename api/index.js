@@ -30,10 +30,7 @@ app.use(cors(
    credentials: true
   }
 ));*/
-app.use(cors(
-  {origin: ["https://aryas-e-commerce.vercel.app"]
-  }
-));
+app.use(cors());
 
 app.use(express.json());
 app.use("/api/auth", authRoute);
