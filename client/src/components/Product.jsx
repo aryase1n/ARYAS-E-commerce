@@ -52,7 +52,7 @@ const Image = styled.img`
 `;
 
 const Icon = styled.div`
-  width: 40px;
+  width: 45px;
   height: 40px;
   border-radius: 50%;
   background-color: white;
