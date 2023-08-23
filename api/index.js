@@ -20,7 +20,7 @@ mongoose
   });
 
 app.use(cors(
-  {origin: ["https://aryas-e-commerce.vercel.app/"],
+  {origin: ["https://aryas-e-commerce.vercel.app"],
    methods: ["POST", "GET"], 
    credentials: true
   }
